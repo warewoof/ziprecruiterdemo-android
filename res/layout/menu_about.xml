@@ -1,0 +1,35 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/about_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_margin="20dp" >
+
+    
+    <TextView 
+        android:id="@+id/toptext"
+        android:layout_width="match_parent"
+    	android:layout_height="wrap_content"
+    	android:layout_alignParentTop="true"
+    	android:autoLink="email"
+    	android:text="Questions or comments may be directed at contact@warewoof.com"
+    	android:textSize="18dp" 
+    	android:textAlignment="center"
+    	android:gravity="center"
+    	android:layout_marginTop="30dp"
+    	android:layout_marginBottom="30dp" />
+    <ImageView
+        android:layout_width="match_parent"
+    	android:layout_height="wrap_content"
+    	android:layout_centerInParent="true"
+    	android:src="@drawable/wwlogo" />
+    <TextView 
+        android:layout_width="match_parent"
+    	android:layout_height="wrap_content"
+    	android:layout_alignParentBottom="true"
+    	android:text="This free app is intended for demo purposes.  Source code is available on github."
+    	android:textSize="18dp"
+    	android:textColor="#999999"
+    	android:gravity="center"
+    	android:layout_marginBottom="30dp" />
+</RelativeLayout>
