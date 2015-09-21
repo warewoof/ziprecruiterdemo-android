@@ -1,1 +1,5 @@
-This is the source for the ZipRecruiter demo application on Google Play: https://play.google.com/store/apps/details?id=com.warewoof.ziprecruiterdemo
+#ziprecruiterdemo-android
+
+This is a service wrapper app for ziprecruiter.com
+
+The ZipRecruiter demo app published on Google Play has since been taken down due to claimed copyright infringement as requested by ZipRecruiter, Inc.
